@@ -50,7 +50,7 @@ mongoose
 // This allows connections from any origin
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000", // Adjust this to your client's URL
+    origin: "https://syook-et-frontend.vercel.app/", // Adjust this to your client's URL
     methods: ["GET", "POST"],
   },
 })
